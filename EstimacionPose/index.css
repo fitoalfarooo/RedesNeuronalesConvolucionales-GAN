@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+video{
+    display: none;
+}
+
+.container{
+    width: 95vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin: 1em;
+}
+
+canvas{
+    width: 90vw;
+    height: 80vh;
+}

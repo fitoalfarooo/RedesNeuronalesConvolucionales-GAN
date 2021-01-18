@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Cargando librerias -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+  <!-- Cargando styles -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h2>By Warner Cortés & Fabián Alfaro</h2>
+    <h1>Cargando...</h1>
+    <!-- etiqueta video para analizar -->
+    <video class="input_video"></video> 
+    <!-- video resultado con la postura de la persona -->
+    <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+    <!-- Cargando script -->
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
